@@ -1,4 +1,4 @@
-package java.strategy.behaviors.fly;
+package java_example.strategy.behaviors.fly;
 
 /**
  * This is the FlyNoWay class

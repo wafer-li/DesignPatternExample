@@ -1,4 +1,4 @@
-package java.strategy.behaviors.quack;
+package java_example.strategy.behaviors.quack;
 
 /**
  * This is the Quack class

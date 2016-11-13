@@ -1,7 +1,8 @@
-package java.strategy.ducks;
+package java_example.strategy.ducks;
 
-import strategy.behaviors.fly.FlyBehavior;
-import strategy.behaviors.quack.QuackBehavior;
+
+import java_example.strategy.behaviors.fly.FlyBehavior;
+import java_example.strategy.behaviors.quack.QuackBehavior;
 
 /**
  * This is the ModelDuck class

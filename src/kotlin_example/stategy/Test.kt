@@ -1,4 +1,4 @@
-package stategy
+package kotlin_example.stategy
 
 /**
  * This is the Test class

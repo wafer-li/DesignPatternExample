@@ -1,4 +1,4 @@
-package stategy
+package kotlin_example.stategy
 
 interface QuackBehavior {
     fun quack()

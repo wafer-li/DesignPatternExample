@@ -1,4 +1,4 @@
-package stategy
+package kotlin_example.stategy
 
 open class Duck(var flyBehavior: FlyBehavior, var quackBehavior: QuackBehavior)
 {
