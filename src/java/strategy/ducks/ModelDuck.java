@@ -1,18 +1,18 @@
-package strategy.ducks;
+package java.strategy.ducks;
 
 import strategy.behaviors.fly.FlyBehavior;
 import strategy.behaviors.quack.QuackBehavior;
 
 /**
- * This is the MallardDuck class
+ * This is the ModelDuck class
  * Please put some info here.
  *
  * @author Wafer Li
- * @since 16/11/13 14:45
+ * @since 16/11/13 14:59
  */
-public class MallardDuck extends Duck{
+public class ModelDuck extends Duck{
 
-    public MallardDuck(FlyBehavior flyBehavior, QuackBehavior quackBehavior) {
+    public ModelDuck(FlyBehavior flyBehavior, QuackBehavior quackBehavior) {
 
         super(flyBehavior, quackBehavior);
     }
@@ -21,6 +21,6 @@ public class MallardDuck extends Duck{
     @Override
     public void display() {
 
-        System.out.println("I am a mallard duck");
+        System.out.println("I am a model duck");
     }
 }

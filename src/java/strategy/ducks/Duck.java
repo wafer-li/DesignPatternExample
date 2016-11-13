@@ -1,4 +1,4 @@
-package strategy.ducks;
+package java.strategy.ducks;
 
 import strategy.behaviors.fly.FlyBehavior;
 import strategy.behaviors.quack.QuackBehavior;

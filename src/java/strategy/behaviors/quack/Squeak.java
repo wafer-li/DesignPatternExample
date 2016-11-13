@@ -1,4 +1,4 @@
-package strategy.behaviors.quack;
+package java.strategy.behaviors.quack;
 
 /**
  * This is the Squeak class

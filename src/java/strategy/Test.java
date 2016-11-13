@@ -1,15 +1,15 @@
-package strategy;
+package java.strategy;
 
-import strategy.behaviors.fly.FlyNoWay;
-import strategy.behaviors.fly.FlyWithRocket;
-import strategy.behaviors.fly.FlyWithWings;
-import strategy.behaviors.quack.Quack;
-import strategy.behaviors.quack.Slient;
-import strategy.behaviors.quack.Squeak;
-import strategy.ducks.MallardDuck;
-import strategy.ducks.ModelDuck;
-import strategy.ducks.RedHeadDuck;
-import strategy.ducks.RubberDuck;
+import java.strategy.behaviors.fly.FlyNoWay;
+import java.strategy.behaviors.fly.FlyWithRocket;
+import java.strategy.behaviors.fly.FlyWithWings;
+import java.strategy.behaviors.quack.Quack;
+import java.strategy.behaviors.quack.Slient;
+import java.strategy.behaviors.quack.Squeak;
+import java.strategy.ducks.MallardDuck;
+import java.strategy.ducks.ModelDuck;
+import java.strategy.ducks.RedHeadDuck;
+import java.strategy.ducks.RubberDuck;
 
 /**
  * This is the Test class
