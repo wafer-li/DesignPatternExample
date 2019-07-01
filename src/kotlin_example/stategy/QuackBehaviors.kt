@@ -16,7 +16,7 @@ class Squeak : QuackBehavior {
     }
 }
 
-class Slient : QuackBehavior {
+class Silent : QuackBehavior {
     override fun quack() {
         println("I cannot quack!")
     }

@@ -9,25 +9,25 @@ package kotlin_example.stategy
  */
 
 fun main(args: Array<String>) {
-    val mallardDuck: MallardDuck = MallardDuck(FlyWithWings(), Quack())
+    val mallardDuck = MallardDuck(FlyWithWings(), Quack())
     mallardDuck.display()
     mallardDuck.performFly()
     mallardDuck.performQuack()
     println("=================================================")
 
-    val redHeadDuck: ReadHeadDuck = ReadHeadDuck(FlyWithWings(), Quack())
+    val redHeadDuck = ReadHeadDuck(FlyWithWings(), Quack())
     redHeadDuck.display()
     redHeadDuck.performFly()
     redHeadDuck.performQuack()
     println("=================================================")
 
-    val modelDuck: ModelDuck = ModelDuck(FlyNoWay(), Slient())
+    val modelDuck = ModelDuck(FlyNoWay(), Silent())
     modelDuck.display()
     modelDuck.performFly()
     modelDuck.performQuack()
     println("=================================================")
 
-    val rubberDuck: RubberDuck = RubberDuck(FlyNoWay(), Squeak())
+    val rubberDuck = RubberDuck(FlyNoWay(), Squeak())
     rubberDuck.display()
     rubberDuck.performFly()
     rubberDuck.performQuack()

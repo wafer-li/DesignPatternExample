@@ -1,0 +1,18 @@
+@startuml
+interface Observer {
+    {abstract} void update(Observable observable)
+}
+
+interface Observable {
+    {abstract} void addObserver(Observer observer)
+    {abstract} void removeObserver(Observer observer)
+    {abstract} void notifyObservers()
+}
+
+class CurrentConditionDisplay implements Observer
+class WeatherData implements Observable
+
+Observable o- Observer
+
+hide empty members
+@enduml

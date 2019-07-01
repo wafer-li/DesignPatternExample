@@ -1,0 +1,23 @@
+@startuml
+abstract class Component
+
+abstract class Decorator {
+  Component component
+}
+
+class ConcreteComponent
+
+class ConcreteDecoratorA
+
+class ConcreteDecoratorB
+
+Decorator -up-|> Component
+Component --o Decorator
+
+ConcreteComponent -up-|> Component
+
+ConcreteDecoratorA -up-|> Decorator
+ConcreteDecoratorB -up-|> Decorator
+
+hide empty members
+@enduml

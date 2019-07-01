@@ -1,0 +1,62 @@
+@startuml
+class Duck {
+    {abstract}FlyBehaviors flyBehaviors
+    {abstract}QuackBehaviors quackBehaviors
+}
+
+class MallardDuck extends Duck {
+    FlyBehaviors flyBehaviors
+    QuackBehaviors quackBehaviors
+}
+
+class RedHeadDuck extends Duck {
+    FlyBehaviors flyBehaviors
+    QuackBehaviors quackBehaviors
+}
+class RubberDuck extends Duck {
+    FlyBehaviors flyBehaviors
+    QuackBehaviors quackBehaviors
+}
+
+class ModelDuck extends Duck {
+    FlyBehaviors flyBehaviors
+    QuackBehaviors quackBehaviors
+}
+
+interface FlyBehaviors {
+    {abstract}+ void quack()
+}
+
+class FlyWithWings implements FlyBehaviors {
+    + void quack()
+}
+
+class FlyNoWay implements FlyBehaviors {
+    + void quack()
+}
+
+class FlyWithRocket implements FlyBehaviors {
+    + void quack()
+}
+
+interface QuackBehaviors {
+    {abstract} + void quack()
+}
+
+class Quack implements QuackBehaviors {
+    + void quack()
+}
+
+class Squeak implements QuackBehaviors {
+    + void quack()
+}
+
+class Silent implements QuackBehaviors {
+    + void quack()
+}
+
+Duck *-up- FlyBehaviors
+Duck *-up- QuackBehaviors
+
+hide empty members
+@enduml

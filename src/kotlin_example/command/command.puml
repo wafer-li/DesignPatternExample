@@ -1,0 +1,25 @@
+@startuml
+class Client
+
+class Invoker
+
+class Receiver
+
+interface Command {
+  void execute()
+}
+
+class ConcretCommand {
+  void execute()
+}
+
+Client -> ConcretCommand
+Client -down-> Receiver
+
+Invoker -> Command
+
+ConcretCommand .up.|> Command
+ConcretCommand -> Receiver
+
+hide empty members
+@enduml
